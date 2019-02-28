@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: #ff9966;
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  font-family: 'Roboto', sans-serif;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.fade-leave {
+  display: block;
+}
+
+.fade-leave.fade-leave-active {
+  display: none;
+}
