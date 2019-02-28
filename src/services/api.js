@@ -1,7 +1,6 @@
 import axios from 'axios';
 import uniqBy from 'lodash/uniqBy';
 import getIconClass from './icons';
-require('dotenv').config();
 
 const API_URL = 'http://api.worldweatheronline.com/premium/v1/';
 const API_KEY = process.env.REACT_APP_API_KEY;
